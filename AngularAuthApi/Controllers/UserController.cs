@@ -20,6 +20,7 @@ namespace AngularAuthApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly ApplicationDbContext _authContext;
+        
 
         public UserController(ApplicationDbContext authContext)
         {
